@@ -2782,7 +2782,7 @@ sexCommand: {
 
             killCommand: {
                 command: 'kill',
-                rank: 'bouncer',
+                rank: 'cohost',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -3279,7 +3279,7 @@ sexCommand: {
 
             reloadCommand: {
                 command: 'reload',
-                rank: 'bouncer',
+                rank: 'cohost',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
